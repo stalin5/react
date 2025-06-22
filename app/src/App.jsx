@@ -1,35 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import {StrictMode, useState} from 'react'
+// import ListUser from "./ListUser.jsx";
+// function App() {
+//     // let [userList, setUserList] = useState([])
+//     // let [user, setUser] = useState({name:'', email:'', password:''});
+//     // return (
+//     //     <>
+//     //         <form onSubmit={(e) => {
+//     //             e.preventDefault()
+//     //             setUserList([...userList,{...user}]);
+//     //         }
+//     //         }>
+//     //             <input type="text" placeholder="name" onChange={(e)=>{
+//     //             user.name=e.target.value;}}/>
+//     //             <input type="text" placeholder="email" onChange={(e)=>{
+//     //             user.email = e.target.value;}
+//     //             }/>
+//     //             <button type="submit">Submit</button>
+//     //         </form>
+//     //         <div>
+//     //             <table className="table table-striped">
+//     //                 <thead>
+//     //                 <tr>
+//     //                     <th>Name</th>
+//     //                     <th>Email</th>
+//     //                 </tr>
+//     //                 </thead>
+//     //                 {
+//     //                     userList.map((user,index)=>(
+//     //                         <tr key={index}>
+//     //                             <td>{user.name}</td>
+//     //                             <td>{user.email}</td>
+//     //                         </tr>
+//     //                     ))
+//     //                 }
+//     //             </table>
+//     //         </div>
+//     //
+//     //     </>
+//     // )
+//     return (
+//         <ListUser/>
+//     )
+// }
+// export default App
+
+import Home from "./pages/Home.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return (
+        <h1>dddss</h1>
+    )
 }
-
 export default App
