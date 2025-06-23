@@ -1,6 +1,8 @@
-import "../style/banner.css"
+// import "../style/banner.css"
+import bannerImage from '../assets/react.svg'
 function Banner() {
     return (
-        <img className="banner" src={require("../assets/banner.jpg")}/>
+        <img className="banner" src={bannerImage}/>
     )
 }
+export default Banner;

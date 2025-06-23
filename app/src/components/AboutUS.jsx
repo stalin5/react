@@ -12,3 +12,4 @@ function AboutUS() {
                  parting value based education for men and women.</p></>
     )
 }
+export default AboutUS
